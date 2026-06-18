@@ -1,0 +1,7 @@
+---
+  - hosts: localhost
+    tasks: 
+    - name: Copy JAR file
+      copy:
+       src: target/rm-1.0-SNAPSHOT.jar
+       dest: /home/cbitexam/rm-1.0-SNAPSHOT.jar
